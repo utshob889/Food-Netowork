@@ -172,3 +172,51 @@ nav {
 .about_description_part a {
     margin-bottom: 55px;
 }
+
+/* order form start */
+.order_form {
+    background-image: url('../images/food/Project Cover4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.order_form form {
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    backdrop-filter: blur(5px);
+}
+
+
+.order_form form input,
+.order_form form textarea {
+    width: 45%;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 0;
+    padding: 14px 25px;
+    font-size: 16px;
+    color: #000;
+    transition-duration: 0.3s;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.order_form form textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.order_form h1,
+.order_form h3 {
+    width: 100%;
+}
+
+.order_form form .button {
+    border: 0;
+    outline: 0;
+}
