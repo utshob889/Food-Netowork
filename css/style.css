@@ -132,3 +132,43 @@ nav {
 .image_part img {
     width: 80%;
 }
+
+/* about part start*/
+.about_part {
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 50px;
+}
+
+.about_image_part {
+    text-align: left;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.about_image_part img {
+    width: 50%;
+}
+
+.about_discription_part {
+    align-items: center;
+}
+
+.about_discription_part h3 {
+    color: rgb(136, 134, 134);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700px;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.about_discription_part p {
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 60px;
+}
+
+.about_description_part a {
+    margin-bottom: 55px;
+}
