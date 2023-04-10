@@ -1,0 +1,134 @@
+body {
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.display_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.half {
+    width: 50%;
+}
+
+.content {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+/* hader part start */
+
+header {
+    background-color: rgb(255, 153, 0);
+    padding: 5px 0px;
+}
+
+
+header h3 {
+    font-family: 'Manrope', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.list_links {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.list_links li {
+    list-style-type: none;
+    font-family: 'Manrope', sans-serif;
+}
+
+.list_links a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.list_links_nav {
+    align-items: center;
+}
+
+.list_links_nav li a {
+    font-weight: 600px;
+}
+
+nav {
+    background-image: url(../images/navbg.png);
+    background-position: bottom center;
+    background-size: 100% 20%;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+}
+
+.logo {
+    font-weight: 600px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    color: rgb(250, 106, 106);
+}
+
+.logo span {
+    color: rgb(255, 140, 0);
+}
+
+.justify_content-space-between {
+    justify-content: space-between;
+}
+
+/* banner part start*/
+.discription_part {
+    align-items: center;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.discription_part h1 {
+    color: rgb(83, 85, 86);
+    font-weight: 700px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 56px;
+    margin-bottom: 50px;
+}
+
+.discription_part h1 span {
+    color: rgb(247, 124, 57);
+}
+
+.discription_part p {
+    color: rgb(72, 72, 72);
+    font-weight: 800px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.button {
+    text-decoration: none;
+    background: linear-gradient(rgb(247, 94, 94), rgb(233, 126, 49));
+    color: white;
+    display: inline-block;
+    font-weight: 600px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px orangered;
+}
+
+.image_part {
+    text-align: right;
+}
+
+.image_part img {
+    width: 80%;
+}
